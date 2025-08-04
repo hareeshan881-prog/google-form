@@ -1,0 +1,112 @@
+h1{
+   font-family: Arial, sans-serif;
+      background-color:  #E6E6FA;
+      margin: 0;
+      padding: 40px;
+      text-align: center;
+}
+form {
+      max-width: 600px;
+      margin: auto;
+      padding: 25px;
+      background-color:  #E6E6FA;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="number"],
+    input[type="date"],
+    input[type="color"],
+    input[type="range"],
+    input[type="tel"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid  #E6E6FA;
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+      margin-right: 10px;
+    }
+
+     .form-group-inline {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+      padding: 10px 20px;
+      background-color: #E6E6FA;
+      border: none;
+      color:  #E6E6FA;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      margin-right: 10px;
+    }
+
+    input[type="submit"]:hover,
+    input[type="reset"]:hover {
+      background-color: #E6E6FA;
+    }
+
+    small {
+      color: #666;
+    }
+    .navbar{
+   display: flex; 
+   flex-direction: row;
+   justify-content: space-between;
+   background-color: lavender;
+}
+.navbar-left{
+    padding-left: 10px;
+}
+.navbar-right{
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.a-element{
+    padding: 10px;
+    margin: 10px ;
+    border: 2px solid red
+}
+.home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 30vh;
+    border: 2px solid red;
+}
+.home- :left {
+    width: 50vw;
+}
+.home-right {
+    width: 40vw;
+}
+    

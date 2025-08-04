@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOOGLE FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> GOOGLE FORM</h1>
+     <div class="navbar">
+        <div class="navbar-left">
+            <h1>please fill the form</h1>
+        </div>
+        <div class="navbar-right">
+            <a class="a-element">Home></a>
+            <a class="a-element">About</a>
+            <a class="a-element">Services</a>               
+            <a class="a-element">contact</a>
+        </div>
+    </div>
+</body>
+   <form action="#" method="POST">
+    <div class="form-group">
+      <label for="name">user name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required />
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" />
+    </div>
+
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" />
+    </div>
+
+    <div class="form-group">
+      <label for="phone">contact number</label>
+      <input type="tel" id="phone" name="phone" placeholder="123-456-7890" />
+    </div>
+
+    <div class="form-group">
+      <label for="age">Age</label>
+      <input type="number" id="age" name="age" min="1" max="100" />
+    </div>
+
+    <div class="form-group">
+      <label for="dob">Date of Birth</label>
+      <input type="date" id="dob" name="dob" />
+    </div>
+
+    <div class="form-group">
+      <label>Gender</label>
+      <div class="form-group-inline">
+        <input type="radio" id="male" name="gender" value="Male" />
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="Female" />
+        <label for="female">Female</label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>Hobbies</label>
+      <div class="form-group-inline">
+        <input type="checkbox" id="music" name="hobby" value="Music" />
+        <label for="music">Music</label>
+
+        <input type="checkbox" id="sports" name="hobby" value="Sports" />
+        <label for="sports">Sports</label>
+
+        <input type="checkbox" id="reading" name="hobby" value="Reading" />
+        <label for="reading">Reading</label>
+      </div>
+
+      <form>
+        <input type="Submit" name ="submit" value ="submit"/>
+        <br>
+        <input type="reset" name ="reset" value ="Reset"/>
+        <br>
+        <input type="button" name ="ok" value ="ok"/>
+        <br>
+        <input type="image" name ="imagebutton" src ="/html/images/ logo.png" />
+        <br>
+      </form>
+<style>
+    body {
+     background-color: lavender;
+      font-family: Arial, sans-serif;
+      color: #333;
+      padding: 20px;
+    }
+</style>
+</body>
+</html>
